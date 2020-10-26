@@ -1,0 +1,110 @@
+<style>
+    body{
+        margin: 0;
+        z-index: 10;
+        font-family: "century-gothic", sans-serif;
+    }
+    .left{
+        height: 100%;
+        width: 50%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        overflow: hidden;
+        z-index: 99;
+    }
+    .right{
+        height: 100%;
+        width: 49%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        overflow: hidden;
+        z-index: 99;
+        text-align: center;
+    }
+    .buttons{
+        width: 90%;
+        text-align: right;
+        height: 40%;
+        position: absolute;
+        right: 0;
+    }
+    .button{
+        height: 20%;
+        position: relative;
+        padding: 0;
+        border-radius: 30px;
+        border: 0.2VW solid black;
+    }
+    .no{
+        font-size: 5VW;
+    }
+
+    .text{
+        font-size: 2VW;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        text-align: center;
+        transform: translate(0%, -50%);
+        background: linear-gradient(90deg, rgba(255, 0, 212, 1) 0%, rgb(89, 0, 255) 100%, rgb(89, 0, 255) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .Head{
+        
+        position: relative;
+        font-size: 1.2VW;
+        left: 4VW;
+        width: 50%;
+        letter-spacing:0.1em;
+        
+    }
+
+
+    a:link {
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:visited {
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:hover {
+        color: black;
+        background-color: transparent;
+    }
+    a:active {
+        color: black;
+        background-color: transparent;
+
+    }
+</style>
+<body>
+<div class="left">
+    <div class="Head"><h1>Contents</h1></div>
+    <div class="buttons leftbuttons">
+        <a href="/?page=15" target="_parent"><div class="button a"><div class="text textl">CAP</div><div class="no">15</div></div></a></br>
+        <a href="/?page=17" target="_parent"><div class="button b"><div class="text textl">PA</div><div class="no">17 - 19</div></div></a></br>
+        <a href="/?page=21" target="_parent"><div class="button c"><div class="text textl">Dance </div><div class="no">21 - 25</div></div></a></br>
+        <a href="/?page=27" target="_parent"><div class="button d"><div class="text textl">FMP</div><div class="no">27 - 31</div></div></a></br>
+        <a href="/?page=33" target="_parent"><div class="button e"><div class="text textl">IDD</div><div class="no">33 - 35</div></div></a></br>
+        <a href="/?page=37" target="_parent"><div class="button f"><div class="text textl">MTEC</div><div class="no">37</div></div></a></br>
+        <a href="/?page=39" target="_parent"><div class="button f"><div class="text textr">MTH</div><div class="no">39 - 45</div></div></a></br>
+        <a href="/?page=47" target="_parent"><div class="button f"><div class="text textr">MUS</div><div class="no">47 - 51</div></div></a></br>
+        
+    </div>
+</div>
+<div class="right">
+    <div class="Head"><h1>Contents</h1></div>
+    
+    <div class="buttons rightbuttons">
+        <a href="/?page=53" target="_parent"><div class="button f"><div class="text textr">THE</div><div class="no">53 - 59</div></div></a></br>
+        <a href="/?page=61" target="_parent"><div class="button f"><div class="text textr">VAD</div><div class="no">61 - 65</div></div></a></br>
+        
+    </div>
+</div>
+</body>
